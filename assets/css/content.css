@@ -1,0 +1,222 @@
+/*
+	Manejador de contenidos — IES
+	Estilos complementarios a assets/css/main.css (plantilla del sitio).
+	Nada de dimensiones fijas: todo fluido y responsive.
+*/
+
+/* ---------- Barra lateral: menú de artículos ---------- */
+
+	#main .sidebar .article-index { margin-top: 0; }
+
+	.article-menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.article-menu li { margin: 0 0 0.4em 0; }
+
+	.article-menu a {
+		border-bottom: 0;
+		display: block;
+		padding: 0.85em 1.1em;
+		background: rgba(188, 202, 206, 0.12);
+		border-left: 4px solid transparent;
+	}
+
+	.article-menu a:hover {
+		background: rgba(188, 202, 206, 0.28);
+		border-left-color: #83d3c9;
+	}
+
+	.article-menu a.active {
+		background: #83d3c9;
+		color: #fff;
+		border-left-color: #56a59c;
+	}
+
+	.article-menu .article-date {
+		display: block;
+		font-size: 0.72em;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		opacity: 0.75;
+	}
+
+	.article-menu a.active .article-date { opacity: 0.9; }
+
+	.article-menu .article-title {
+		display: block;
+		font-weight: 900;
+		line-height: 1.35;
+		margin-top: 0.3em;
+	}
+
+	.article-empty {
+		font-size: 0.9em;
+		line-height: 1.6;
+		opacity: 0.75;
+	}
+
+	.article-empty code {
+		background: rgba(188, 202, 206, 0.25);
+		padding: 0 0.35em;
+	}
+
+/* ---------- Paginador (grupos de 20) ---------- */
+
+	.article-pager { margin-top: 1.5em; text-align: center; }
+
+	.article-pager-inner {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.8em;
+	}
+
+	.pager-btn {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+		background: none;
+		border: solid 1px rgba(124, 128, 129, 0.4);
+		border-radius: 0;
+		color: inherit;
+		cursor: pointer;
+		display: inline-block;
+		font-family: inherit;
+		font-size: 0.78em;
+		font-weight: 900;
+		letter-spacing: 0.12em;
+		line-height: 1;
+		padding: 0.8em 1.4em;
+		text-transform: uppercase;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+			background-color 0.2s ease-in-out;
+	}
+
+	.pager-btn:hover:not(:disabled) {
+		border-color: #675bde;
+		color: #675bde;
+	}
+
+	.pager-btn:disabled {
+		cursor: default;
+		opacity: 0.35;
+	}
+
+	.pager-info {
+		font-size: 0.8em;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		opacity: 0.7;
+	}
+
+/* ---------- Lector de artículos ---------- */
+
+	#article-meta {
+		color: #7c8081;
+		font-size: 0.75em;
+		letter-spacing: 0.14em;
+		margin-bottom: 2.2em;
+		text-transform: uppercase;
+	}
+
+	.article-status {
+		color: #7c8081;
+		font-style: italic;
+	}
+
+	.article-body { line-height: 1.75; }
+
+	#article-view h1, #article-view h2 {
+		letter-spacing: 0.08em;
+		line-height: 1.35;
+		margin: 0 0 1em 0;
+	}
+
+	#article-view p { margin: 0 0 1.5em 0; }
+
+	#article-view ul, #article-view ol { margin: 0 0 1.5em 2.2em; }
+
+	#article-view ul { list-style: disc; }
+
+	#article-view ol { list-style: decimal; }
+
+	#article-view li { margin: 0 0 0.4em 0; }
+
+	#article-view blockquote {
+		border-left: 4px solid rgba(124, 128, 129, 0.35);
+		margin: 0 0 1.5em 0;
+		padding: 0.4em 1.2em;
+		opacity: 0.85;
+	}
+
+	#article-view blockquote p { margin-bottom: 0.35em; }
+
+	#article-view pre {
+		background: #2a2f3a;
+		color: #e9eef5;
+		line-height: 1.5;
+		margin: 0 0 1.5em 0;
+		overflow-x: auto;
+		padding: 1.2em 1.4em;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+
+	#article-view code {
+		background: rgba(188, 202, 206, 0.25);
+		font-size: 0.9em;
+		padding: 0.15em 0.4em;
+	}
+
+	#article-view pre code {
+		background: none;
+		padding: 0;
+	}
+
+	#article-view table {
+		border-collapse: collapse;
+		margin: 0 0 1.5em 0;
+		width: 100%;
+	}
+
+	#article-view th, #article-view td {
+		border: solid 1px rgba(124, 128, 129, 0.3);
+		padding: 0.6em 0.9em;
+		text-align: left;
+	}
+
+	#article-view th {
+		background: rgba(188, 202, 206, 0.25);
+		font-weight: 900;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	#article-view img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	#article-view hr {
+		border: 0;
+		border-top: solid 1px rgba(124, 128, 129, 0.3);
+		margin: 2em 0;
+	}
+
+/* ---------- Pantallas pequeñas ---------- */
+
+	/* El grid de la plantilla ya apila columnas (col-12-narrower); con
+	   imp-narrower el menú queda arriba del artículo en móvil. */
+
+	@media screen and (max-width: 736px) {
+
+		.article-pager-inner { gap: 0.5em; }
+
+		.pager-btn { padding: 0.7em 1em; font-size: 0.72em; }
+
+		.pager-info { width: 100%; }
+	}

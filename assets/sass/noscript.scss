@@ -1,0 +1,19 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+
+/*
+	Ingeniería Esencial S.A. de C.V.
+	IES Mex | @nekhya
+	*/
+
+/* Banner */
+
+	#banner {
+		.inner {
+			opacity: 1;
+		}
+	}

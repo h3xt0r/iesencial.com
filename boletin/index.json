@@ -1,0 +1,23 @@
+{
+  "section": "boletin",
+  "label": "Boletines",
+  "generated": "2026-09-10T22:00:12.454136+00:00",
+  "count": 3,
+  "articles": [
+    {
+      "date": "2026-09-09",
+      "title": "Boletin-02: Mercado de Bonos",
+      "file": "2026-09-09-Boletin-02: Mercado de Bonos.md"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Boletin-01:Fondos de Noruega",
+      "file": "2026-09-07-Boletin-01:Fondos de Noruega.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Boletin-02:Certificados energeticos",
+      "file": "2026-09-01-Boletin-02:Certificados energeticos.md"
+    }
+  ]
+}

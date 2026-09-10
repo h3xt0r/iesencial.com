@@ -1,0 +1,18 @@
+{
+  "section": "toc",
+  "label": "Teoría de Restricciones",
+  "generated": "2026-09-10T22:00:12.453804+00:00",
+  "count": 2,
+  "articles": [
+    {
+      "date": "2026-08-30",
+      "title": "TOC-01:Que es la teoria de restricciones",
+      "file": "2026-08-30-TOC-01:Que es la teoria de restricciones.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "TOC-02:Los cinco pasos de enfoque",
+      "file": "2026-08-15-TOC-02:Los cinco pasos de enfoque.md"
+    }
+  ]
+}
