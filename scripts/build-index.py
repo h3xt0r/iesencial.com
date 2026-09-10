@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-Equivalent to scripts/build-index.mjs (Node.js).
-
 Genera index.json ("manejador de contenidos") para las secciones toc/, boletin/
 y finanzas/: lista de artículos .md ordenada de más reciente a más antigua.
 

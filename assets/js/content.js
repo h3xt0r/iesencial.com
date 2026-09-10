@@ -6,7 +6,7 @@
  *
  * Flujo:
  *   1. Lee <body data-section="..."> para saber en qué sección está la página.
- *   2. Descarga <seccion>/index.json (generado por scripts/build-index.mjs):
+ *   2. Descarga <seccion>/index.json (generado por scripts/build-index.py):
  *      lista de artículos con fecha, título y nombre de archivo.
  *   3. Dibuja en la barra lateral derecha el menú de artículos (más recientes
  *      primero) con paginador de 20 entradas.
@@ -100,7 +100,7 @@
     if (slice.length === 0) {
       menuEl.innerHTML = '<p class="article-empty">Sin artículos. Sube archivos ' +
         'con el formato <code>YYYY-MM-DD-Nombre.md</code> y ejecuta ' +
-        '<code>scripts/build-index.mjs</code>.</p>';
+        '<code>scripts/build-index.py</code>.</p>';
     } else {
       menuEl.appendChild(frag);
     }
@@ -308,7 +308,7 @@
       })
       .catch(function (err) {
         showStatus('No se pudo leer ' + INDEX_URL + '. ¿Se ejecutó ' +
-          'scripts/build-index.mjs después de subir los artículos? (' + err.message + ')');
+          'scripts/build-index.py después de subir los artículos? (' + err.message + ')');
       });
   }
 

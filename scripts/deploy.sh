@@ -4,7 +4,7 @@
 #
 #  1. Verifica que todos los archivos críticos existan en el repo (pre-flight).
 #  2. Regenera los index.json del manejador de contenidos a partir de los
-#     artículos .md agregados manualmente (node scripts/build-index.mjs).
+#     artículos .md agregados manualmente (python3 scripts/build-index.py).
 #  3. Copia el repositorio al root del vhost de nginx.
 #  4. Verifica que los archivos críticos hayan quedado en el destino (post-check).
 #
@@ -59,12 +59,10 @@ fi
 echo "  OK: todos los archivos críticos existen."
 
 echo "==> Generando index.json (menús de toc/, boletin/, finanzas/)"
-if command -v node >/dev/null 2>&1; then
-  node scripts/build-index.mjs
-elif command -v python3 >/dev/null 2>&1; then
+if command -v python3 >/dev/null 2>&1; then
   python3 scripts/build-index.py
 else
-  echo "ERROR: se requiere node o python3 para generar los índices." >&2
+  echo "ERROR: se requiere python3 para generar los índices (el servidor no tiene node)." >&2
   exit 1
 fi
 
