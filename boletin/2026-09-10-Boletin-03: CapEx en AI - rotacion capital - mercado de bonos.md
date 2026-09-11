@@ -4,6 +4,8 @@
 
 **Caso:** Exceso de CAPEX en IA, Rotación de Capital y el Mercado de Bonos (CNBC / Jim Cramer - Julio 2026)
 
+https://www.cnbc.com/2026/07/28/jim-cramer-wall-street-fleeing-ai-trade-buying-these-stocks.html
+
 ---
 
 ## 1. Titular y Resumen Ejecutivo
