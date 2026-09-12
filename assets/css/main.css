@@ -179,22 +179,22 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: 100%;
-		width: 1400px;
+		max-width: 1800px;
+		width: 92%; /* Ocupa el 92% del ancho en pantallas grandes */
 	}
 
 		.container.medium {
-			width: 1050px;
+			width: 75%;
 		}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1200px;
+				width: 92%;
 			}
 
 				.container.medium {
-					width: 900px;
+					width: 80%;
 				}
 
 		}
@@ -202,11 +202,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 960px;
+				width: 95%;
 			}
 
 				.container.medium {
-					width: 735px;
+					width: 85%;
 				}
 
 		}
@@ -246,7 +246,11 @@ input, select, textarea {
 				}
 
 		}
-
+	
+	
+	
+	
+	
 /* Row */
 
 	.row {
