@@ -1,8 +1,8 @@
 {
   "section": "boletin",
   "label": "Boletines",
-  "generated": "2026-09-19T06:58:15.115749+00:00",
-  "count": 6,
+  "generated": "2026-09-19T07:33:51.674683+00:00",
+  "count": 5,
   "articles": [
     {
       "date": "2026-09-17",
@@ -28,11 +28,6 @@
       "date": "2026-09-07",
       "title": "Boletin-01:Fondos de Noruega",
       "file": "2026-09-07-Boletin-01:Fondos de Noruega.md"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Boletin-02:Certificados energeticos",
-      "file": "2026-09-01-Boletin-02:Certificados energeticos.md"
     }
   ]
 }
