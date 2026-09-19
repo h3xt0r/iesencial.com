@@ -36,18 +36,8 @@ El cuello de botella del sistema financiero global no es la masa monetaria dispo
 
 ### **C. Herramienta de Procesos de Pensamiento: Nube de Evaporación del Conflicto (Evaporating Cloud)**
 
-```text
-                     [ B: Preservar el Throughput (T) ] ---> [ D: Desprenderse de Treasuries ]
-                     [    y proteger el valor del Fondo ]      [    y rotar a activos reales  ]
-                    /
-[ A: Sostenibilidad ]                                              x (CONFLICTO SISTÉMICO)
-[    y Estabilidad  ]
-[    Financiera     ]
-                    \
-                     [ C: Garantizar la Liquidez y ] ---> [ D': Mantener reservas en     ]
-                     [    Estabilidad del Mercado   ]      [     Treasuries de EE. UU.  ]
+![Nube de Evaporación del Conflicto](diagramas/Boletin-02-Mercado-de-Bonos/nube-evaporacion-conflicto.svg)
 
-```
 
 * **Premisa Falsa Evaporada:** *"Los U.S. Treasuries son el único activo infinitamente líquido y exento de riesgo de mercado para la reserva de capitales soberanos."*
 * **Inyección TOC:** La sustitución de deuda gubernamental por crédito corporativo, hipotecas (*MBS*) y activos reales genera mayor Throughput sin comprometer la liquidez operativa requerida por los fondos soberanos.

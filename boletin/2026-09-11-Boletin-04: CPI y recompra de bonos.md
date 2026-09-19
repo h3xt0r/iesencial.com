@@ -36,27 +36,13 @@ La capacidad finita del balance del mercado monetario mundial para absorber emis
 
 #### Árbol de Realidad Actual (CRT): Saturación de Deuda y Contagio Global
 
-|  | Causa Raíz / Restricción Fundamental |  |
-| --- | --- | --- |
-| **Efecto Indeseable 1 (UDE 1)** | **Efecto Indeseable 2 (UDE 2)** | **Efecto Indeseable 3 (UDE 3)** |
-| Incapacidad de absorber deuda soberana sin aumento de $T$ real. | Inyección de liquidez fiscal financiada con deuda del Tesoro. | Rendimientos de deuda europea y estadounidense en máximos. |
-| **Derivados de UDE 1** | **Derivados de UDE 2** | **Derivados de UDE 3** |
-| El *Buyback* de $6,000M destruye el precio de bonos viejos y eleva los rendimientos. | El CPI repunta al 3.4% interanual por distorsión de precios y liquidez. | El BoJ se ve forzado a subir tasas (1.25%), amenazando el *Yen Carry Trade*. |
-| **Resultado Sistémico** | **Rediseño de Rutas de Flujo (Bypass)** | **Fragmentación Multipolar** |
-| Los tenedores extranjeros desinvierten de Bonos del Tesoro de EE. UU. | Transacción de materias primas fuera del sistema SWIFT / USD. | Reconfiguración de la Red de Cadena de Valor Global (RMB, Oro, Monedas Locales). |
+![Árbol de Realidad Actual: Saturación de Deuda y Contagio Global](diagramas/Boletin-04-CPI-y-recompra-de-bonos/arbol-realidad-actual-deuda.svg)
 
 ---
 
 #### Nube de Evaporación (Evaporating Cloud): El Conflicto Fiscal vs. Monetario
 
-|  | Objetivo Común ($O$): Estabilidad Económica Sistemática |  |
-| --- | --- | --- |
-| **Requisito A** |  | **Requisito B** |
-| Mantener la solvencia del mercado de deuda soberana y la liquidez del Tesoro. |  | Preservar el poder adquisitivo de la moneda y contener la inflación. |
-| **Prerrequisito A'** |  | **Prerrequisito B'** |
-| Recomprar deuda / monetizar el déficit (*Quantitative Easing* o *Buybacks* masivos). |  | Mantener tasas de interés elevadas y restringir la hoja de balance del Banco Central. |
-|  | **Resolución del Conflicto (Inyección de Supuesto)** |  |
-| **Supuesto Falso:** El Dólar es la única divisa posible para procesar el comercio global. | **Inyección TOC:** Diversificar el comercio internacional fuera de la compensación en USD (Transición Multipolar), liberando la presión sobre el cuello de botella del balance soberano de EE. UU. | **Falsación:** El flujo global de bienes ($T$) ignora la restricción de liquidez en USD operando con vías de pago alternativas. |
+![Nube de Evaporación: El Conflicto Fiscal vs. Monetario](diagramas/Boletin-04-CPI-y-recompra-de-bonos/nube-evaporacion-fiscal-monetario.svg)
 
 ---
 

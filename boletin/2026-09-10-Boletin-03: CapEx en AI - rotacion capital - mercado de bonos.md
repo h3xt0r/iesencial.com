@@ -23,20 +23,8 @@ El éxodo de capital desde las Megacaps tecnológicas hiperapalancadas hacia sec
 * **El Sistema bajo Análisis:** La red global de asignación de capital (Renta Variable vs. Mercado de Deuda Corporativa y Bonos Sovereign).
 * **La Restricción del Sistema (Cuello de Botella):** La **Capacidad de Monetización y Generación de Flujo de Caja Real ($T$)**. La restricción ya no es la capacidad física de cómputo o el acceso a chips, sino la integración efectiva de la tecnología en la economía real para producir liquidez neta.
 
-```
-       [SISTEMA DE ASIGNACIÓN DE CAPITAL GLOBAL]
- ┌────────────────────────────────────────────────────────┐
- │ Insumos de Crédito  ──>  [ I: GPUs / Centros Datos ]   │
- │ (Mercado de Bonos)       (95% Subutilizado / OE Alto)  │
- └────────────────────────────────────────────────────────┘
-                                │
-                                ▼  [CUELLO DE BOTELLA ACTUAL]
-                   ┌──────────────────────────┐
-                   │  Throughput Real ($T$)   │ ◄── ¡BLOQUEADO!
-                   │  Monetización en Mercado │
-                   └──────────────────────────┘
+![Flujo del Sistema de Asignación de Capital](diagramas/Boletin-03-CapEx-en-AI-rotacion-capital-mercado-de-bonos/flujo-sistema-capital.svg)
 
-```
 
 ### Impacto en los 3 Parámetros Clave de Goldratt
 
@@ -48,18 +36,8 @@ El éxodo de capital desde las Megacaps tecnológicas hiperapalancadas hacia sec
 
 ### Herramienta de Procesos de Pensamiento: Nube de Evaporación (Evaporating Cloud)
 
-```
-                  ┌──> [B] Maximizar Valoración y Multiplicadores ──> [D] Invertir agresivamente en CAPEX de IA
-                  │    a Futuro (Narrativa de Crecimiento)            (Apalancamiento / Acumulación de "I")
-[A] Objetivo:     │
-Garantizar la     │
-Supervivencia y   │
-Retorno de Capital│
-                  │
-                  └──> [C] Garantizar Solvencia, Liquidez  ─────────> [D'] Rotar capital hacia empresas de
-                       y Cobertura de Deuda (Protección)               Throughput Real y Desapalancadas (Valor)
+![Nube de Evaporación del CAPEX en IA](diagramas/Boletin-03-CapEx-en-AI-rotacion-capital-mercado-de-bonos/nube-evaporacion-capex.svg)
 
-```
 
 * **El Supuesto Falso a Evaporar:** Se asumía la premisa de que *"Incrementar la Inversión ($I$) en infraestructura tecnológica se traduciría automáticamente en Throughput ($T$) a velocidad infinita"*. La exigencia del mercado de bonos rompe este supuesto, forzando la migración del capital hacia [D'].
 

@@ -23,22 +23,8 @@ La propuesta analizada por *El Economista* de escindir los negocios deficitarios
 
 * **Nube de Evaporación del Conflicto:**
 
-```
-               [ GARANTIZAR BIENESTAR SOCIAL Y SOBERANÍA ]
-                                    |
-            (Requisito A)           |          (Requisito B)
-     Mantener la cadena integrada   |    Eliminar el drenaje de caja
-     como amortiguador estratégico  |    y recortar activos deficitarios
-                 \                  |                  /
-                  \                 |                 /
-                   [ EL CONFLICTO: ESCINDIR / RECURSAR PEMEX ]
-                  /                                     \
-         (Prerrequisito A)                       (Prerrequisito B)
-    Absorber pérdidas operativas            Vender o segregar unidades
-     con endeudamiento o subsidios           que arrojan márgenes
-               públicos                        financieros negativos
+![Nube de Evaporación del Conflicto: Escindir o Recursar PEMEX](diagramas/Boletin-05-Analisis-Sistemico-de-PEMEX/nube-evaporacion-pemex.svg)
 
-```
 
 ---
 

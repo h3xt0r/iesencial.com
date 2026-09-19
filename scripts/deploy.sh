@@ -44,9 +44,20 @@ REQUIRED_FILES=(
   finanzas/index.html
 )
 
+# Diagramas SVG de los boletines web (Plan B): deben llegar al sitio con cada
+# despliegue para que los artículos muestren las figuras renderizadas.
+WEB_DIAGRAMAS=(
+  boletin/diagramas/Boletin-02-Mercado-de-Bonos/nube-evaporacion-conflicto.svg
+  boletin/diagramas/Boletin-03-CapEx-en-AI-rotacion-capital-mercado-de-bonos/flujo-sistema-capital.svg
+  boletin/diagramas/Boletin-03-CapEx-en-AI-rotacion-capital-mercado-de-bonos/nube-evaporacion-capex.svg
+  boletin/diagramas/Boletin-04-CPI-y-recompra-de-bonos/arbol-realidad-actual-deuda.svg
+  boletin/diagramas/Boletin-04-CPI-y-recompra-de-bonos/nube-evaporacion-fiscal-monetario.svg
+  boletin/diagramas/Boletin-05-Analisis-Sistemico-de-PEMEX/nube-evaporacion-pemex.svg
+)
+
 echo "==> Verificación previa (archivos críticos en el repo)"
 missing=0
-for f in "${REQUIRED_FILES[@]}"; do
+for f in "${REQUIRED_FILES[@]}" "${WEB_DIAGRAMAS[@]}"; do
   if [[ ! -f "$f" ]]; then
     echo "  FALTA en el repo: $f" >&2
     missing=1
@@ -87,7 +98,9 @@ if [[ -n "${SSH_TARGET:-}" ]]; then
   # Remoto: comprobamos las URLs públicas del sitio.
   CHECK_PATHS=(/index.html /assets/js/content.js /assets/css/content.css
                /assets/js/marked.min.js /assets/js/purify.min.js
-               /toc/index.json /boletin/index.json /finanzas/index.json)
+               /toc/index.json /boletin/index.json /finanzas/index.json
+               /boletin/diagramas/Boletin-02-Mercado-de-Bonos/nube-evaporacion-conflicto.svg
+               /boletin/diagramas/Boletin-04-CPI-y-recompra-de-bonos/nube-evaporacion-fiscal-monetario.svg)
   fail=0
   for p in "${CHECK_PATHS[@]}"; do
     code="$(curl -s -o /dev/null -w '%{http_code}' "$SITE_URL$p")"
@@ -105,7 +118,7 @@ if [[ -n "${SSH_TARGET:-}" ]]; then
 else
   # Local: el root del vhost está en esta máquina; verificamos los archivos.
   fail=0
-  for p in "${REQUIRED_FILES[@]}" toc/index.json boletin/index.json finanzas/index.json; do
+  for p in "${REQUIRED_FILES[@]}" "${WEB_DIAGRAMAS[@]}" toc/index.json boletin/index.json finanzas/index.json; do
     if [[ ! -f "$SERVER_ROOT/$p" ]]; then
       echo "  FALTA en el destino: $p" >&2
       fail=1
