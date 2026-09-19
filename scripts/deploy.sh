@@ -44,16 +44,11 @@ REQUIRED_FILES=(
   finanzas/index.html
 )
 
-# Diagramas SVG de los boletines web (Plan B): deben llegar al sitio con cada
-# despliegue para que los artículos muestren las figuras renderizadas.
-WEB_DIAGRAMAS=(
-  boletin/diagramas/Boletin-02-Mercado-de-Bonos/nube-evaporacion-conflicto.svg
-  boletin/diagramas/Boletin-03-CapEx-en-AI-rotacion-capital-mercado-de-bonos/flujo-sistema-capital.svg
-  boletin/diagramas/Boletin-03-CapEx-en-AI-rotacion-capital-mercado-de-bonos/nube-evaporacion-capex.svg
-  boletin/diagramas/Boletin-04-CPI-y-recompra-de-bonos/arbol-realidad-actual-deuda.svg
-  boletin/diagramas/Boletin-04-CPI-y-recompra-de-bonos/nube-evaporacion-fiscal-monetario.svg
-  boletin/diagramas/Boletin-05-Analisis-Sistemico-de-PEMEX/nube-evaporacion-pemex.svg
-)
+# Diagramas SVG de los boletines web: se detectan solos (boletin/diagramas/*/*.svg),
+# así que un boletín nuevo no exige editar este script.
+WEB_DIAGRAMAS=()
+while IFS= read -r -d '' f; do WEB_DIAGRAMAS+=("$f"); done \
+  < <(find boletin/diagramas -type f -name '*.svg' -print0 2>/dev/null | sort -z)
 
 echo "==> Verificación previa (archivos críticos en el repo)"
 missing=0
@@ -95,12 +90,11 @@ fi
 
 echo "==> Verificación posterior (archivos en el destino)"
 if [[ -n "${SSH_TARGET:-}" ]]; then
-  # Remoto: comprobamos las URLs públicas del sitio.
+  # Remoto: comprobamos las URLs públicas del sitio (incluye todos los SVG).
   CHECK_PATHS=(/index.html /assets/js/content.js /assets/css/content.css
                /assets/js/marked.min.js /assets/js/purify.min.js
-               /toc/index.json /boletin/index.json /finanzas/index.json
-               /boletin/diagramas/Boletin-02-Mercado-de-Bonos/nube-evaporacion-conflicto.svg
-               /boletin/diagramas/Boletin-04-CPI-y-recompra-de-bonos/nube-evaporacion-fiscal-monetario.svg)
+               /toc/index.json /boletin/index.json /finanzas/index.json)
+  for f in "${WEB_DIAGRAMAS[@]}"; do CHECK_PATHS+=(/boletin/"${f#boletin/}"); done
   fail=0
   for p in "${CHECK_PATHS[@]}"; do
     code="$(curl -s -o /dev/null -w '%{http_code}' "$SITE_URL$p")"
