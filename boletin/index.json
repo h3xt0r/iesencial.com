@@ -1,9 +1,24 @@
 {
   "section": "boletin",
   "label": "Boletines",
-  "generated": "2026-09-10T22:00:12.454136+00:00",
-  "count": 3,
+  "generated": "2026-09-19T06:58:15.115749+00:00",
+  "count": 6,
   "articles": [
+    {
+      "date": "2026-09-17",
+      "title": "Boletin-05: Analisis Sistemico de PEMEX",
+      "file": "2026-09-17-Boletin-05: Analisis Sistemico de PEMEX.md"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Boletin-04: CPI y recompra de bonos",
+      "file": "2026-09-11-Boletin-04: CPI y recompra de bonos.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Boletin-03: CapEx en AI - rotacion capital - mercado de bonos",
+      "file": "2026-09-10-Boletin-03: CapEx en AI - rotacion capital - mercado de bonos.md"
+    },
     {
       "date": "2026-09-09",
       "title": "Boletin-02: Mercado de Bonos",
