@@ -12,7 +12,6 @@ Uso:
 import json
 import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -40,7 +39,6 @@ def build_section(name, meta):
     index = {
         "section": name,
         "label": meta["label"],
-        "generated": datetime.now(timezone.utc).isoformat(),
         "count": len(articles),
         "articles": articles,
     }
