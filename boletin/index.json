@@ -1,9 +1,14 @@
 {
   "section": "boletin",
   "label": "Boletines",
-  "generated": "2026-09-19T07:33:51.674683+00:00",
-  "count": 5,
+  "generated": "2026-09-19T08:19:52.052224+00:00",
+  "count": 6,
   "articles": [
+    {
+      "date": "2026-09-17",
+      "title": "Boletin-06: El Espejismo del Banco de Japon",
+      "file": "2026-09-17-Boletin-06: El Espejismo del Banco de Japon.md"
+    },
     {
       "date": "2026-09-17",
       "title": "Boletin-05: Analisis Sistemico de PEMEX",
