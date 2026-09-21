@@ -1,6 +1,8 @@
-# Termodinámica Financiera
+# Termodinámica Financiera 07: Políticas Económicas.
 
 **Análisis Sistémico de Políticas Económicas bajo la Teoría de Restricciones (TOC)**
+
+[Políticas Económicas](https://www.eleconomista.com.mx/economia/edgar-amador-responde-guillermo-ortiz-modelo-actual-dado-mejores-resultados-neoliberal-20260921-834537.html)
 
 ---
 
