@@ -1,8 +1,13 @@
 {
   "section": "boletin",
   "label": "Boletines",
-  "count": 6,
+  "count": 7,
   "articles": [
+    {
+      "date": "2026-09-21",
+      "title": "Boletin-07: Politicas Economicas bajo TOC",
+      "file": "2026-09-21-Boletin-07: Politicas Economicas bajo TOC.md"
+    },
     {
       "date": "2026-09-17",
       "title": "Boletin-06: El Espejismo del Banco de Japon",
