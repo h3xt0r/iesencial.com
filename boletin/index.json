@@ -1,8 +1,13 @@
 {
   "section": "boletin",
   "label": "Boletines",
-  "count": 7,
+  "count": 8,
   "articles": [
+    {
+      "date": "2026-10-07",
+      "title": "Boletin-08: Educacion financiera",
+      "file": "2026-10-07-Boletin-08: Educacion financiera.md"
+    },
     {
       "date": "2026-09-21",
       "title": "Boletin-07: Politicas Economicas bajo TOC",
