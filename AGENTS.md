@@ -77,9 +77,12 @@ Todo boletín nuevo (`boletin/YYYY-MM-DD-<Serie-NN>:<Título>.md`) debe llevar:
      `%20`), ej.
      `https://www.iesencial.com/boletin/#art=2026-11-12-Boletin-09%3A%20Deficit%20comercial%20mex-usa.md`.
 - **Pie** — al final del documento, solo autor y correo, en negritas y en dos
-  líneas (sin separador ni texto adicional):
+  párrafos separados por una **línea en blanco** (un salto simple se renderiza
+  como espacio y el correo quedaría junto al nombre), sin separador ni texto
+  adicional:
 
       **Fis. Héctor Hernández Caso**
+
       contacto@iesencial.com
 
 ## Convenciones y trampas
