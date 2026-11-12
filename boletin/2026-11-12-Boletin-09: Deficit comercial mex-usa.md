@@ -72,4 +72,5 @@ El debate sobre el déficit comercial estadounidense suele polarizarse entre qui
 5. **PREVENIR LA INERCIA (Volver al Paso 1):** Una vez que la integración logística y energética de Norteamérica deje de ser el cuello de botella, la restricción se desplazará hacia la innovación tecnológica o la disponibilidad de materias primas críticas. Las instituciones deben evitar que las políticas diseñadas para resolver la crisis comercial de 2026 se conviertan en dogmas rígidos que asfixien la siguiente etapa de evolución sistémica.
 
 **Fis. Héctor Hernández Caso**
+
 contacto@iesencial.com
