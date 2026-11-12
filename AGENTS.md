@@ -63,6 +63,25 @@ desarrollo: **publicar no es `git push`**, se publica con `scripts/deploy.sh`
    convierte a HTML en el momento. Sin autenticación: el contenido se controla
    en el repositorio.
 
+## Formato de los artículos (boletines)
+
+Todo boletín nuevo (`boletin/YYYY-MM-DD-<Serie-NN>:<Título>.md`) debe llevar:
+
+- **Encabezado** — justo después del título `# ...`, una línea con **dos
+  enlaces**:
+  1. La noticia analizada (fuente original): `[<título>](<url de la fuente>)`.
+  2. La página propia donde se publica: `[Publicado en iesencial.com](<url
+     profunda>)`. La URL profunda es
+     `https://www.iesencial.com/boletin/#art=<nombre-de-archivo>` con el nombre
+     codificado vía `encodeURIComponent` (los `:` → `%3A` y los espacios →
+     `%20`), ej.
+     `https://www.iesencial.com/boletin/#art=2026-11-12-Boletin-09%3A%20Deficit%20comercial%20mex-usa.md`.
+- **Pie** — al final del documento, solo autor y correo, en negritas y en dos
+  líneas (sin separador ni texto adicional):
+
+      **Fis. Héctor Hernández Caso**
+      contacto@iesencial.com
+
 ## Convenciones y trampas
 
 - Contenido y código de UI en **español**.

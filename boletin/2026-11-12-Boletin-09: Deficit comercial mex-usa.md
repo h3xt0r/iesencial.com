@@ -1,6 +1,6 @@
 # Termodinámica Financiera 09: Déficit Comercial México-EE. UU.
 
-[Déficit comercial México-EE. UU.](https://www.eleconomista.com.mx/empresas/aumenta-deficit-comercial-estados-unidos-mexico-septiembre-20261109-842947.html)
+[Déficit comercial México-EE. UU.](https://www.eleconomista.com.mx/empresas/aumenta-deficit-comercial-estados-unidos-mexico-septiembre-20261109-842947.html) · [Publicado en iesencial.com](https://www.iesencial.com/boletin/#art=2026-11-12-Boletin-09%3A%20Deficit%20comercial%20mex-usa.md)
 
 
 ## 1. Titular y Resumen Ejecutivo
@@ -70,3 +70,6 @@ El debate sobre el déficit comercial estadounidense suele polarizarse entre qui
 3. **SUBORDINAR todo lo demás a la decisión anterior:** Subordinar la política arancelaria, fiscal y monetaria al flujo continuo de la cadena de suministro norteamericana. Ninguna medida proteccionista local debe implementarse si interrumpe o encarece los insumos críticos que alimentan la capacidad productiva del bloque.
 4. **ELEVAR la restricción del sistema:** Invertir de forma coordinada el capital atrapado en activos financieros improductivos ($I$) hacia la expansión física de la capacidad energética (redes de transmisión, energía limpia y gas natural), puertos de entrada, vías férreas y formación técnica binacional. Elevar este cuello de botella es la única vía real para reducir la dependencia de Asia sin destruir el Throughput.
 5. **PREVENIR LA INERCIA (Volver al Paso 1):** Una vez que la integración logística y energética de Norteamérica deje de ser el cuello de botella, la restricción se desplazará hacia la innovación tecnológica o la disponibilidad de materias primas críticas. Las instituciones deben evitar que las políticas diseñadas para resolver la crisis comercial de 2026 se conviertan en dogmas rígidos que asfixien la siguiente etapa de evolución sistémica.
+
+**Fis. Héctor Hernández Caso**
+contacto@iesencial.com
