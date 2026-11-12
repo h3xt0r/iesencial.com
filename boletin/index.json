@@ -1,8 +1,13 @@
 {
   "section": "boletin",
   "label": "Boletines",
-  "count": 8,
+  "count": 9,
   "articles": [
+    {
+      "date": "2026-11-12",
+      "title": "Boletin-09: Deficit comercial mex-usa",
+      "file": "2026-11-12-Boletin-09: Deficit comercial mex-usa.md"
+    },
     {
       "date": "2026-10-07",
       "title": "Boletin-08: Educacion financiera",
